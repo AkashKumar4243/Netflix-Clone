@@ -1,6 +1,6 @@
 import express, { json } from "express";
 import mongoose from "mongoose";
-import api from "./routes/auth.js";
+import authRoute from "./routes/auth.js";
 
 import dotenv from "dotenv"
 dotenv.config();
@@ -17,7 +17,7 @@ const PORT = 8800;
 
 app.use(json());
 
-app.use('/api/auth',api);
+app.use('/api/auth',authRoute);
 
 
 app.listen(PORT, () => {
