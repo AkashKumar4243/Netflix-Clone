@@ -1,19 +1,22 @@
 import mongoose from "mongoose";
 
-const ListSchema = mongoose.Schema({
-    title : {
-        type : String,
-        required : true
+const ListSchema = mongoose.Schema(
+  {
+    title: {
+      type: String,
+      required: true,
     },
-    type : {
-        type : String,
+    type: {
+      type: String,
     },
-    genre : {
-        type : String,
+    genre: {
+      type: String,
     },
-    content : {
-        type : Array
-    }
-},{timestamp : true})
+    content: {
+      type: Array,
+    },
+  },
+  { timestamps: true }
+);
 
-export default mongoose.model("Users",ListSchema);
+export default mongoose.model("Users", ListSchema);

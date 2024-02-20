@@ -39,7 +39,7 @@ const MoviesSchema = mongoose.Schema(
       type: Boolean,
     },
   },
-  { timestamp: true }
+  { timestamps: true }
 );
 
 export default mongoose.model("Movies", MoviesSchema);

@@ -7,7 +7,7 @@ export default function (req, res, next) {
     return res.status(401).json({ Error: "Authentication Failed" });
   }
 
-//   const token = authHeader.split(" ")[1];
+  //   const token = authHeader.split(" ")[1];
   jwt.verify(authHeader, process.env.SECRET_KEY, (err, user) => {
     if (err) {
       return res.status(403).json("Invalid Token");
