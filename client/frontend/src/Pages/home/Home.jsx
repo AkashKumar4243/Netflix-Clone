@@ -1,54 +1,20 @@
-import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
+import Featured from "../../components/featured/Featured";
+import List from "../../components/list/List";
 
 const Home = () => {
   return (
     <div className="home">
-        <Navbar />
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
-        <div className="div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatibus animi quibusdam ipsum possimus veritatis inventore, neque dignissimos tempora odio quasi voluptatum labore quisquam sapiente totam, veniam expedita exercitationem error?</div>
+      <Navbar />
+      <Featured />
+      <List />
+      <List />
+      <List />
+      <List />
+      <List />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
